@@ -25,6 +25,73 @@
     color: var(--main-color);
 }
 
+/*navbar*/
+.navbar {
+    background-color: #5057C3;
+    width: auto;
+    overflow: hidden;
+}
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.navbar-item {
+    float: center;
+    display: inline-block;
+    min-width: 5em;
+    margin: 0 0.5em;
+}
+.navbar-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar-item.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5057C3;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+.navbar-item a:hover {
+    background-color: #2550B7;
+    color: rgb(255, 255, 255);
+}
+/*tentang kami*/
+.allup {
+    display: flex;
+    margin-top: 2rem;
+    margin: 0;
+    align-items: center;
+    background: #ebdbc8;
+    flex-wrap: wrap;
+}
+.logo{
+    flex: 1 1 21rem;
+    padding-left: 150px;
+}
+.text{
+    flex: 1 1 21rem;
+    padding-right: 100px;
+}
 /*produk kami*/
 .row {
     padding-left: 25px;

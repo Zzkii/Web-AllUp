@@ -11,14 +11,36 @@
 </head>
 <body>
     <!--Navbar-->
+    <nav class="navbar">
+        <ul class="navbar-list">
+        <li class="navbar-item"><a href="#tentang">Tentang Kami</a></li>
+        <li class="navbar-item dropdown">
+        <a href="#jasa-kami">Jasa Kami</a>
+        <div class="dropdown-content">
+        <a href="#cara-order">Cara Order</a>
+        </div>
+        </li>
+        <li class="navbar-item"><a href="#">Video Iklan</a></li>
+        <li class="navbar-item"><a href="#kotak-person">Contact Person</a></li>
+        </ul>
+        </nav>
     <!--Tentang Kami-->
+    <div class="allup" id="tentang">
+        <div class="logo">
+            <img src="img/alluplogo.png" alt="">
+        </div>
+        <div class="text">
+            <h4>AllUp merupakan salah satu perusahaan yang menyediakan berbagai layanan. Mulai dari voucher internet, jasa service PC/Laptop, ataupun berbagai kebutuhan top up.
+                AllUp juga hadir untuk membantu meningkatkan internet yang lambat di sekolah dengan menjual voucher wifi.</h4>
+        </div>
+    </div>
     <!--Jasa Kami-->
     <div class="small-container">
         <h2 class="title">Produk yang kami sediakan</h2>
         <div class="row">
             <div class="col-4">
-                <a href="page/recomended.html"><img src="img/wifi.jpg" alt="" /></a>
-                <a class="title-prod" href="page/recomended.html">
+                <a href="#wifi"><img src="img/wifi2.jpg" alt="" /></a>
+                <a class="title-prod" href="#wifi">
                     <h4>Voucher Wifi</h4>
                 </a>
                 <div class="price-container">
@@ -26,8 +48,8 @@
                 </div>
             </div>
             <div class="col-4">
-                <a href="page/recomended.html"><img src="img/wifi.jpg" alt="" /></a>
-                <a class="title-prod" href="page/recomended.html">
+                <a href="#service-pc"><img src="img/servicepc.png" alt="" /></a>
+                <a class="title-prod" href="#service-pc">
                     <h4>Pemeliharaan & Service PC</h4>
                 </a>
                 <div class="price-container">
@@ -35,8 +57,8 @@
                 </div>
             </div>
             <div class="col-4">
-                <a href="page/recomended.html"><img src="img/wifi.jpg" alt="" /></a>
-                <a class="title-prod" href="page/recomended.html">
+                <a href="#upgrade-pc"><img src="img/upgradepc.jpg" alt="" /></a>
+                <a class="title-prod" href="#upgrade-pc">
                     <h4>Upgrade PC</h4>
                 </a>
                 <div class="price-container">
@@ -44,8 +66,8 @@
                 </div>
             </div>
             <div class="col-4">
-                <a href="page/recomended.html"><img src="img/wifi.jpg" alt="" /></a>
-                <a class="title-prod" href="page/recomended.html">
+                <a href="#top-up"><img src="img/topup.jpeg" alt="" /></a>
+                <a class="title-prod" href="#top-up">
                     <h4>Top Up E-Money & Paket Data</h4>
                 </a>
                 <div class="price-container">
@@ -55,39 +77,40 @@
         </div>
     </div>
     <!--tentag layanan-->
-    <section class="delivery" id="delivery">
+    <section class="delivery" id="jasa-kami">
         <div class="heading">
             <h1>Order Sekarang</h1>
         </div>
-        <div class="container">
+        <div class="container" id="wifi">
             <div class="delivery-img">
-                <img src="img/banner2.jpg" alt="">
+                <img src="img/wifi.jpg" alt="">
             </div>
             <div class="delivery-text">
                 <h2>Voucher Wifi</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi fuga quibusdam consectetur eaque inventore quos, odio vero harum assumenda quam.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi fuga quibusdam consectetur eaque inventore quos, odio vero harum assumenda quam.</p>
+                <p>Untuk memenuhi dinamika kebutuhan internet di SMKN 4 Bandung yang semakin meningkat. AllUp mempersembahkan wifi voucher, teknologi wifi sebagai tambahan wifi sekolah yang menghubungkan setiap kebutuhan internet pelanggan.</p>
+                <p>AllUp sebagai penyedia jaringan internet yang menawarkan layanan wifi untuk pelanggan juga bermitra dengan ICT SMKN 4 Bandung dalam penyediaan akses internet yang terjangkau dan membantu meratakan akses jaringan wifi di ligkungan sekolah</p>
+                <p>Temukan semua layanan wifi yang sesuai dengan kebutuhan Anda di sini. AllUp adalah solusi internet anda</p>
                 <a href="#" class="btn">Order Now</a>
             </div>
         </div>
     </section>
     <section class="app" id="app">
-        <div class="container">
+        <div class="container" id="service-pc">
             <div class="app-text">
                 <h2>Pemeliharaan & Perbaikan PC</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi fuga quibusdam consectetur eaque inventore quos, odio vero harum assumenda quam.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi fuga quibusdam consectetur eaque inventore quos, odio vero harum assumenda quam.</p>
+                <p>AllUp memberikan layanan reparasi perbaikan ataupun service Komputer (PC / Laptop) kami siap untuk membantu Anda mengatasi berbagai kerusakan Komputer (PC / Laptop). Selain itu kami juga melayani pemeliharaan pembersihan part pc//laptop anda.</p>
+                <p>Kami juga diawasi oleh kaproli TKJ SMKN 4 Bandung untuk membantu menyelesaikan masalah dari kerusakan berbagai merek Komputer (PC / Laptop) Anda.</p>
                 <a href="#" class="btn">Order Now</a>
             </div>
             <div class="app-img">
-                <img src="img/banner2.jpg" alt="">
+                <img src="img/servicepc.png" alt="" height="350px">
             </div>
         </div>
     </section>
     <section class="delivery" id="delivery">
-        <div class="container">
+        <div class="container" id="upgrade-pc">
             <div class="delivery-img">
-                <img src="img/banner2.jpg" alt="">
+                <img src="img/upgradepc.jpg" alt="" height="350px">
             </div>
             <div class="delivery-text">
                 <h2>Jasa Upgrade PC</h2>
@@ -98,7 +121,7 @@
         </div>
     </section>
     <section class="app" id="app">
-        <div class="container">
+        <div class="container" id="top-up">
             <div class="app-text">
                 <h2>Top Up E-Money &Paket Data</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi fuga quibusdam consectetur eaque inventore quos, odio vero harum assumenda quam.</p>
@@ -106,12 +129,12 @@
                 <a href="#" class="btn">Order Now</a>
             </div>
             <div class="app-img">
-                <img src="img/banner2.jpg" alt="">
+                <img src="img/topup.jpeg" alt="" height="350px">
             </div>
         </div>
     </section>
-    <!--ara order-->
-    <div class="heading">
+    <!--cara order-->
+    <div class="heading" id="cara-order">
         <h1>Cara Order</h1>
     </div>
     <section class="tentang" id="tentang">
@@ -121,14 +144,14 @@
         <div class="tentang-text">
             <h2>Untuk berlangganan di AllUp caranya Gampang Banget</h2>
             <p>Kalian bisa langsung order melalui website kita atau dm ke IG kita @allup.id</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quod excepturi qui quae voluptatibus magnam quibusdam quas, perferendis autem necessitatibus.</p>
+            <p>Selamat menikmati kemudahan layanan kami</p>
         </div>
     </section>
     <!--Video Tutorial Masuk Web-->
     <!--Video Iklan-->
     <!--Contact Person-->
     <!--Footer-->
-    <footer class="footer-distributed">
+    <footer class="footer-distributed" id="kontak-person">
         <div class="footer-left">
             <h3>Payment Method</h3>
             <div class="credit-cards">
