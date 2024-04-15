@@ -252,6 +252,7 @@ background-color: #ddd;
 }
 .tentang-text {
     flex: 1 1 17rem;
+    padding-top: 40px;
 } 
 .tentang-text h2 {
     font-size: 1.2rem;
