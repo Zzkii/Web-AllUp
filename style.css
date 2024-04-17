@@ -434,4 +434,17 @@ background-color: #ddd;
     .footer-distributed .footer-center i {
         margin-left: 0;
     }
-}       
+} 
+/*video iklan*/
+h1 {
+    color: black;
+    text-align: center;
+    text-decoration: oklch(lightness chroma hue);
+    padding-top: 50px;
+}
+video {
+    display:block;
+    margin: auto; 
+    width: 900px; 
+    height: 500px;
+}      
